@@ -1,0 +1,15 @@
+client:
+  market:
+    server:
+      port:8080
+ spring:
+   jpa:
+     hibernate:
+       ddl-auto: validate
+     show-sql: true
+   datasource:
+     url: jdbc:postgresql://localhost:5432/gb_shop
+     username: postgres
+     password: password
+   flyway:
+     baseline-on-migrate: true
